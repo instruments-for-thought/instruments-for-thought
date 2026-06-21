@@ -2,13 +2,13 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "package-name"
+name = "instruments-for-thought"
 version = "0.0.1"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"}
 ]
-description = "Package description"
+description = "Instruments for Thought"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers=[
@@ -17,15 +17,14 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["package-name"]
+keywords = ["instruments-for-thought"]
 
 dependencies = [
     "pyyaml == 6.0.3"
 ]
 
 [project.scripts]
-package-name = "package_name.cli:run"
+instruments-for-thought = "package_name.cli:run"
 
 [project.urls]
-"Homepage" = "https://github.com/org_name/package-name"
-"Bug Tracker" = "https://github.com/org_name/package-name/issues"
+"Homepage" = "https://github.com/instruments-for-thought/instruments-for-thought"

@@ -1,6 +1,6 @@
-# Package name
+# Instruments for Thought
 <pre>
-  pip install package-name
+  pip install instruments-for-thought
 </pre>
 Then:
 ```Python
